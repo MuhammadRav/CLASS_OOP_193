@@ -34,7 +34,7 @@ public:				// Akses modifier
 
 	void tampilMk()			//Prosedur / Metode / Fungsi => bagian dari Member
 	{
-		cout << "=====================\n";
+		cout << "========================\n";
 		cout << "\nJumlah SKS = " << sks;
 		cout << "\nKode MK = " << kode;
 		cout << "\nNama MK = " << namaMk << endl;
