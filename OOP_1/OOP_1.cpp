@@ -10,6 +10,7 @@ public:
 	{
 		cout << "\nNIM = " << NIM;
 		cout << "\nNama = " << nama;
+		cout << "\n";
 	}
 };
 
@@ -46,7 +47,7 @@ int main()
 
 	cout << "\nMasukkan NIM = ";
 	cin >> mhs.NIM;
-	cout << "Masukkan Nama = ";
+	cout << "\nMasukkan Nama = ";
 	cin >> mhs.nama;
 	
 	mhs.tampil();
