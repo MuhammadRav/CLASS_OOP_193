@@ -3,7 +3,7 @@ using namespace std;
 
 class Mahasiswa 
 {
-public:
+public:				// Akses Modifier
 	int NIM;
 	string nama;
 	void tampil()
@@ -14,14 +14,14 @@ public:
 	}
 };
 
-class Matakuliah
+class Matakuliah		
 {
-private:
+private:			// Akses Modifier
 	int sks;
 	string kode;
 	string namaMk;
-public:
-	void inputMk()
+public:				// Akses modifier
+	void inputMk()			//Prosedur
 	{
 		cout << "\nMasukkan jumlah SKS = ";
 		cin >> sks;
@@ -31,7 +31,7 @@ public:
 		cin >> namaMk;
 	}
 
-	void tampilMk()
+	void tampilMk()			//Prosedur
 	{
 		cout << "\nJumlah SKS = " << sks;
 		cout << "\nKode MK = " << kode;
@@ -42,8 +42,8 @@ public:
 
 int main()
 {
-	Mahasiswa mhs;
-	Matakuliah Mk;
+	Mahasiswa mhs;		// Objek
+	Matakuliah Mk;		// Objek
 
 	cout << "\nMasukkan NIM = ";
 	cin >> mhs.NIM;
