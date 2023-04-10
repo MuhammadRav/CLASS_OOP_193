@@ -21,8 +21,9 @@ private:			// Akses Modifier
 	string kode;
 	string namaMk;
 public:				// Akses modifier
-	void inputMk()			//Prosedur
+	void inputMk()			//Prosedur / Metode / Fungsi
 	{
+		cout << "========================\n";
 		cout << "\nMasukkan jumlah SKS = ";
 		cin >> sks;
 		cout << "\nMasukkan Kode MK = ";
@@ -31,8 +32,9 @@ public:				// Akses modifier
 		cin >> namaMk;
 	}
 
-	void tampilMk()			//Prosedur
+	void tampilMk()			//Prosedur / Metode / Fungsi
 	{
+		cout << "=====================\n";
 		cout << "\nJumlah SKS = " << sks;
 		cout << "\nKode MK = " << kode;
 		cout << "\nNama MK = " << namaMk << endl;
@@ -47,7 +49,7 @@ int main()
 
 	cout << "\nMasukkan NIM = ";
 	cin >> mhs.NIM;
-	cout << "\nMasukkan Nama = ";
+	cout << "Masukkan Nama = ";
 	cin >> mhs.nama;
 	
 	mhs.tampil();
