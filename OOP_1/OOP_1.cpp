@@ -6,9 +6,9 @@ class Mahasiswa
 public:
 	int NIM;
 	string nama;
-	void tampi;()
+	void tampil()
 	{
-		cout << "NIM = " << nim;
+		cout << "NIM = " << NIM;
 		cout << "\nNama = " << nama;
 	}
 };
